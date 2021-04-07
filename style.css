@@ -1,0 +1,15 @@
+.navigation {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    direction: row;
+    justify-content: flex-start;
+    list-style: none;
+}
