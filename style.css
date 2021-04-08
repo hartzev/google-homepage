@@ -1,15 +1,17 @@
-.navigation {
-    list-style: none;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-    align-items: center;
+html, body {
+    height: 100%;
+    width: 100%; 
     margin: 0;
 }
 
-.footer {
+#logo {
+    display: block;
+    margin: auto; 
+    width: 15rem;
+}
+
+#form {
     display: flex;
-    direction: row;
-    justify-content: flex-start;
-    list-style: none;
+    margin: auto;
+    justify-content: center;
 }
