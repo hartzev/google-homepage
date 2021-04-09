@@ -1,26 +1,40 @@
 <!DOCTYPE html>
-    <html>
+    <html lang="en">
         <head>
             <link rel="stylesheet" type="text/css" href="style.css"> 
             <title>Google</title>
         </head>
-        <header></header>
+        <header>
+            <div id="navbar">
+                <nav>
+                    <a href="#">Gmail</a>
+                    <a href="#">Images</a>
+                    <a href="#">Apps</a>
+                    <a href="#">Sign in</a>
+                </nav>
+            </div>
+        </header>
         <body>
-           <img id="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo"></body>
-                <form id="form">
-                <label for="query"></label>
-                <input type="text" id="query" name="query">
-                <br><br>
-                <input id="button" type="submit" value="Google Search">
-                <input id="button" type="submit" value="I'm Feeling Lucky">
-                </form>
-            <p>Google offered in: <a id="czech" href="www.google.com/cz">čeština</a></p>
+            <div id="around">
+                <img id="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo"></img>
+                    <div id="form">
+                        <form>
+                            <label for="query"></label>
+                            <input type="text" id="query" name="query" size="60">
+                            <br><br>
+                            <div id="buttons">
+                                <input type="submit" value="Google Search">
+                                <input type="submit" value="I'm Feeling Lucky">
+                            </div>
+                        </form>
+                    </div>
+                    <p>Google offered in: <a id="czech" href="www.google.com/cz">čeština</a></p>
+            </div>
         </body>
-        <footer> 
-            <ul class="footer">
-                <li><a href="about.google">About</a></li>
-                <li><a href="ads.google.com">Advertising</a></li>
-                <li><a href="google.com/services">Business</a></li>
-                <li><a href="google.com/search/howsearchworks">How Search works</a></li> 
+        <footer>
+            <a href="#">About</a>
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">How Search works</a>
         </footer>
     </html>
