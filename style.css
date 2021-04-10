@@ -58,13 +58,12 @@ img {
 
 .searchbar {
   display: flex;
-  flex: 1;
-  padding: 5px 8px 0 14px;
+  padding: 5px 8px 0px 40px;
   line-height: normal;
-  position: static;
-  z-index: auto;
   background-color: deepskyblue;
-  flex-wrap: wrap;
+  box-shadow: none;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
 }
 
 #search {
@@ -123,4 +122,21 @@ li {
   list-style: none;
   display: inline;
   margin: 0.5rem;
+}
+
+.searchbar {
+  display: flex;
+  flex-direction: row;
+  width: 584px;
+}
+
+.input-field {
+  position: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex: 100%;
+  width: 527px;
+  height: 34px;
+  border: none;
 }
