@@ -1,0 +1,126 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  min-height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-main {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: burlywood;
+}
+
+.logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 92px;
+  max-height: 290px;
+  height: calc(100%-560px);
+  margin-top: 16rem;
+  background-color: rgb(160, 194, 102);
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: cadetblue;
+  width: auto;
+}
+
+img {
+  width: 272px;
+  height: 92px;
+}
+
+.searchbar-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-height: 160px;
+  flex-shrink: 0;
+  background-color: darksalmon;
+}
+
+.searchbar {
+  display: flex;
+  flex: 1;
+  padding: 5px 8px 0 14px;
+  line-height: normal;
+  position: static;
+  z-index: auto;
+  background-color: deepskyblue;
+  flex-wrap: wrap;
+}
+
+#search {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+#lucky {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.language-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+  width: 100%;
+  background-color: green;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0px 20px;
+  background-color: hotpink;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  margin: 0.5rem;
+}
