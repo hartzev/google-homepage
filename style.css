@@ -16,8 +16,39 @@ html {
 
 .nav-main {
   display: flex;
+  align-items: center;
   flex-direction: row-reverse;
   background-color: burlywood;
+}
+
+.nav-right {
+  display: flex;
+  line-height: normal;
+  align-items: center;
+}
+
+.svg-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sign-in {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  background-color: #1a73e8;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  line-height: 16px;
+  margin-right: 8px;
+  min-width: 96px;
+  padding: 9px 23px;
+  vertical-align: middle;
 }
 
 .logo-wrapper {
@@ -58,13 +89,12 @@ img {
 
 .searchbar {
   display: flex;
-  flex: 1;
-  padding: 5px 8px 0 14px;
+  padding: 5px 8px 0px 40px;
   line-height: normal;
-  position: static;
-  z-index: auto;
   background-color: deepskyblue;
-  flex-wrap: wrap;
+  box-shadow: none;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
 }
 
 #search {
@@ -123,4 +153,21 @@ li {
   list-style: none;
   display: inline;
   margin: 0.5rem;
+}
+
+.searchbar {
+  display: flex;
+  flex-direction: row;
+  width: 584px;
+}
+
+.input-field {
+  position: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex: 100%;
+  width: 527px;
+  height: 34px;
+  border: none;
 }
