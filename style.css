@@ -18,7 +18,6 @@ html {
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
-  background-color: burlywood;
 }
 
 .nav-right {
@@ -59,7 +58,6 @@ html {
   max-height: 290px;
   height: calc(100%-560px);
   margin-top: 16rem;
-  background-color: rgb(160, 194, 102);
 }
 
 .logo {
@@ -68,7 +66,6 @@ html {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: cadetblue;
   width: auto;
 }
 
@@ -84,17 +81,21 @@ img {
   padding: 20px;
   max-height: 160px;
   flex-shrink: 0;
-  background-color: darksalmon;
 }
 
 .searchbar {
   display: flex;
-  padding: 5px 8px 0px 40px;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 8px 0px 16px;
   line-height: normal;
-  background-color: deepskyblue;
   box-shadow: none;
   border: 1px solid #dfe1e5;
   border-radius: 24px;
+}
+
+.buttons {
+  margin-top: 18px;
 }
 
 #search {
@@ -137,22 +138,63 @@ img {
   align-items: center;
   margin-bottom: 24px;
   width: 100%;
-  background-color: green;
+}
+
+.language-block a {
+  color: #1a0dab !important;
+}
+
+.language-block a:hover {
+  text-decoration: underline;
 }
 
 footer {
+  width: 100%;
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 0px 20px;
-  background-color: hotpink;
+  background-color: #f2f2f2;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 15px;
+  border-bottom: 1px solid #dadce0;
+  padding-left: 30px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.footer-left {
+  display: flex;
+  font-size: 14px;
+  color: #70757a;
+  text-decoration: none;
+}
+
+.footer-right {
+  display: flex;
+  font-size: 14px;
+  color: #70757a;
+  text-decoration: none;
+}
+
+footer li {
+  padding: 15px;
 }
 
 li {
   list-style: none;
   display: inline;
-  margin: 0.5rem;
+  padding: 6px;
 }
 
 .searchbar {
@@ -170,4 +212,29 @@ li {
   width: 527px;
   height: 34px;
   border: none;
+}
+
+ul {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+.glass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 3px;
+  margin: auto;
+  fill: #9aa0a6;
 }
